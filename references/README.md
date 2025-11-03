@@ -1,4 +1,4 @@
-# umber_dds/refarence
+# umber_dds/references
 Resources referenced during implementation
 
 ## RustDDS

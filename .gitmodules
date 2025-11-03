@@ -1,6 +1,6 @@
-[submodule "refarence/RustDDS"]
+[submodule "references/RustDDS"]
 	path = references/RustDDS
 	url = https://github.com/jhelovuo/RustDDS.git
-[submodule "refarence/ShapesDemo"]
+[submodule "references/ShapesDemo"]
 	path = references/ShapesDemo
 	url = https://github.com/eProsima/ShapesDemo.git

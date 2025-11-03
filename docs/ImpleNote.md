@@ -53,10 +53,10 @@ A factory of DataReader.
 ## rtps module
 
 ### writer
-Implementation of RTPS stateful Refarence Writer Behavior.
+Implementation of RTPS stateful References Writer Behavior.
 
 ### reader
-Implementation of RTPS stateful Refarence Reader Behavior.
+Implementation of RTPS stateful References Reader Behavior.
 
 ### cache
 

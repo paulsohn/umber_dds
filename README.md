@@ -4,7 +4,7 @@ In traditional DDS, the format of the exchanged data is defined using IDL, and D
 However, in Umber DDS, the format of the exchanged data is defined as a struct that implements `serde::{Serialize, Deserialize}`, and the DataWriter and DataReader use the generic types `DataWriter<D: Serialize>` and `DataReader<D: Deserialize>`.
 
 ## Usage
-If you want to use refarence/dds-analysis-docker to perform communication tests with other implementations or analyze this implementation in a Docker environment, or if you want to test interoperability with RustDDS before contributing using test, several dependencies registered as Git submodules are required.
+If you want to use references/dds-analysis-docker to perform communication tests with other implementations or analyze this implementation in a Docker environment, or if you want to test interoperability with RustDDS before contributing using test, several dependencies registered as Git submodules are required.
 
 When cloning this repository, please use the --recursive option to clone the dependencies along with it.
 ```

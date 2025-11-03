@@ -6,7 +6,7 @@ WORKDIR /home
 
 # build ShapesDemo
 RUN apt-get update && apt-get install -y qtbase5-dev
-COPY refarence/ShapesDemo /home/ShapesDemo
+COPY references/ShapesDemo /home/ShapesDemo
 WORKDIR /home/ShapesDemo
 RUN . /opt/Fast-DDS/install/setup.bash && colcon build
 
